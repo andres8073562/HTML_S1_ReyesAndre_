@@ -1,0 +1,417 @@
+@font-face {
+    font-family: "Cafe2";
+    src: url("../Fuentes/OpenSauceOne-Bold.ttf");
+
+}
+@font-face {
+    font-family: "Cafe3";
+    src: url("../Fuentes/PlayfairDisplay-Black.ttf");
+
+
+}
+body {
+    background-color: rgb(10, 10, 10);
+    width: 1920px;
+    height: 1080px;
+}
+.BarraSuperiorNegra {
+    background-color: black;
+    width: 10000px;
+    height: 50px;
+
+}
+
+.Logo  {
+    position:absolute ;
+    color: white;
+    top:10px;
+    left: 800px;
+    font-size: 100px;
+    
+
+}
+.Home  {
+
+    position:absolute;
+    color: white;
+    top: 40px ;
+    left: 3650px;
+    font-size: 60px;
+    
+}
+.Home:hover{
+    cursor:pointer;
+    text-decoration: underline  #b58544 ;
+}
+.Abaout:hover{
+    cursor:pointer;
+    text-decoration: underline  #b58544 ;
+}
+.Menu:hover{
+    cursor:pointer;
+    text-decoration: underline  #b58544 ;
+}
+.Contact:hover{
+    cursor:pointer;
+    text-decoration: underline  #b58544 ;
+}
+
+.Abaout {
+    position:absolute;
+    color: white;
+    top: 40px ;
+    left: 3950px;
+    font-size: 60px;
+}
+.Menu {
+    position:absolute;
+    color: white;
+    top: 40px ;
+    left: 4280px;
+    font-size: 60px;
+}
+.Contact {
+    position:absolute;
+    color: white;
+    top: 40px ;
+    left: 4580px;
+    font-size: 60px;
+}
+.Frase {
+    position: absolute;
+    color: white;
+    top:550px;
+    left: 2150px;
+    font-size: 230px;
+}
+.Cafe1 {
+    position: absolute;
+    width: 6100px;
+    top: 0px;
+    left: 0px;
+}
+.Frase2 {
+    position: absolute;
+    color: white;
+    width: 3000px; 
+    top: 2900px;
+    left: 2000px;  
+    font-size: 230px;
+
+}
+.Shop{
+    position: absolute;
+    top: 3550px;
+    left: 2920px;
+    font-size: 60px;
+    color: black;
+
+}
+.Cuadro {
+    position: absolute;
+    width: 350px;        /* Ancho del cuadro */
+    height: 140px;       /* Alto del cuadro */
+    background-color: #b58544; /* Color de fondo */
+    top: 3550px;
+    left: 2870px;
+
+}
+.Cafe2 {
+    position: absolute;
+    width: 2200px;
+    top: 4500px;
+    left: 0px;
+}
+.Frase3 {
+    position: absolute;
+    color: white;
+    width: 3000px; 
+    top: 4500px;
+    left: 3600px;  
+    font-size: 200px;
+
+}
+.Texto {
+    position: absolute;
+    color: white;
+    width: 1800px; 
+    top: 5000px;
+    left: 3690px;  
+    font-size: 60px;
+    
+    overflow-wrap: break-word;
+
+}
+.Cuadro2 {
+    position: absolute;
+    width: 350px;        /* Ancho del cuadro */
+    height: 140px;       /* Alto del cuadro */
+    background-color: #b58544; 
+    top : 5455px;
+    left: 3690px;
+}
+.Shop2 {
+    position: absolute;
+    color: black;
+    width: 3000px; 
+    top : 5435px;
+    left: 3730px;  
+    font-size: 60px;
+
+}
+.Cafe3 {
+    position: absolute;
+    width: 1300px;
+    top: 6100px;
+    left: 3660px;
+    
+}
+.Frase4 {
+    position: absolute;
+    color: white;
+    width: 1000px; 
+    top: 6200px;
+    left: 500px;  
+    font-size: 120px;
+
+}
+.Texto2 {
+    position: absolute;
+    color: white;
+    width: 1400px; 
+    top: 6800px;
+    left: 500px;  
+    font-size: 60px;
+    
+    overflow-wrap: break-word;
+
+}
+.Cuadro3 {
+    position: absolute;
+    width: 350px;        /* Ancho del cuadro */
+    height: 140px;    /* Alto del cuadro */
+    background-color: #b58544; 
+    top: 7200px;
+    left: 500px; 
+}
+.Shop3 {
+    position: absolute;
+    color: black;
+    width: 3000px; 
+    top: 7175px;
+    left: 535px; 
+    font-size: 60px;
+
+}
+.Productos {
+    position: absolute;
+    color: white;
+    width: 3000px; 
+    top: 8000px;
+    left: 450px;  
+    font-size: 230px;
+}
+.Tabla {
+    position: absolute;
+    color: white;
+    width: 1000px; 
+    height: 1500px;
+    top: 9500px;
+    left: 900px;  
+    font-size: 70px;
+    border: 2px solid #b58544;
+    text-align: center;
+
+}   
+.Tabla2 {
+    position: absolute;
+    color: white;
+    width: 1000px; 
+    height: 1500px;
+    top: 9500px;
+    left: 2600px;  
+    font-size: 70px;
+    border: 2px solid #b58544;
+    text-align: center;
+
+}
+.Tabla3 {
+    position: absolute;
+    color: white;
+    width: 1000px; 
+    height: 1500px;
+    top: 9500px;
+    left: 4300px;  
+    font-size: 70px;
+    border: 2px solid #b58544;
+    text-align: center;
+
+}
+.Cafe4 {
+    position: absolute;
+    width: 350px;
+    top: 9300px;
+    left: 1230px;
+    
+}
+.Cafe5 {
+    position: absolute;
+    width: 350px;
+    top: 9300px;
+    left: 2930px;
+    
+}
+.Cafe6 {
+    position: absolute;
+    width: 350px;
+    top: 9300px;
+    left: 4630px;
+    
+}
+.Linea {
+    position: absolute;
+    height: 2px; /* Grosor */
+    width: 40%;
+    background-color: #b58544; /* Color */
+    top: 11500px;
+    left: 1900px;
+    
+}
+.Titulo {
+    position: absolute;
+    color: white;
+    width: 3000px; 
+    top: 11500px;
+    left: 1600px;  
+    font-size: 130px;
+}
+.Titulo2 {
+    position: absolute;
+    color: #b58544;
+    width: 3000px; 
+    top: 11500px;
+    left: 2050px;  
+    font-size: 130px;
+
+}
+.Parrafo {
+    position: absolute;
+    color: white;
+    width: 1100px; 
+    top: 11800px;
+    left: 1350px;  
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.5;
+}
+.Titulo3 {
+    position: absolute;
+    color:white;
+    width: 3000px; 
+    top: 11500px;
+    left: 2850px;  
+    font-size: 130px;
+
+}
+.Titulo4 {
+    position: absolute;
+    color: #b58544;
+    width: 3000px; 
+    top: 11500px;
+    left: 3330px;  
+    font-size: 130px;
+
+}
+.Parrafo2 {
+    position: absolute;
+    color: white;
+    width: 1100px; 
+    top: 11800px;
+    left: 4050px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.5;
+}
+.Titulo5 {
+    position: absolute;
+    color:white;
+    width: 3000px; 
+    top: 11500px;
+    left: 4180px;
+    font-size: 130px;
+
+}
+.Titulo6 {
+    position: absolute;
+    color: #b58544;
+   top: 11500px; width: 3000px; 
+   top: 11500px;
+    left: 4730px;
+    font-size: 130px;
+}
+.Parrafo3 {
+    position: absolute;
+    color: white;
+    width: 1100px; 
+    top: 11800px;
+    left: 2700px;  
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.5;
+}
+.Linea2 {
+    position: absolute;
+    height: 2px; /* Grosor */
+    width: 40%;
+    background-color: #b58544; /* Color */
+    top: 12400px;
+    left: 1900px;
+}
+.Boton1 {
+    font-size: 70px;
+    background-color: #b58544;
+    color: black;
+
+}
+.Boton2 {
+    font-size: 70px;
+    background-color: #b58544;
+    color: black;
+}
+.Boton3 {
+    font-size: 70px;
+    background-color: #b58544;
+    color: black;
+}
+@font-face {
+    font-family: "Cafe";
+    src: url("../Fuentes/Barlow-Bold.ttf");
+}
+
+h1    {
+    font-family: "Cafe";
+}
+h3    {
+    font-family: "Cafe3";
+}
+h2    {
+    font-family: "Cafe2";
+}
+p    {
+    font-family: "Cafe2";
+}
+.Copyright {
+    position:absolute;
+    font-size: 70px;
+    top: 12500px;
+    left: 2550px;
+    color: white;
+}
+.CL {
+    position:absolute;
+    font-size: 70px;
+    top: 12500px;
+    left: 3650px;
+    color: #b58544;
+    
+}
