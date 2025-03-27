@@ -1,21 +1,61 @@
-.Paisaje {
-   position: relative;
 
-}
 .Elemento1 {
+    position: relative;
     width: 100%;
-    height: 50%px;
-   
+    height: 100%;
 }
 
-
-.Sol {
-
-}
 .Elemento2 {
     position: absolute; 
-    width:  3000px;
-    height: 1500px;
-    left: 60%px;
-    top:50%;
+    width:  200px;
+    height: 20%;
+    left: 80%;
+    top:1%;
+    
+
+}
+.Elemento3 {
+    position: absolute;
+    width: 200px;
+    top: 60%;
+    left: 35%;
+    transition-property: Elemento3;
+    transition-delay: 9s;
+    transition-duration: 5s;
+    animation: mover 5s infinite;
+
+}
+@keyframes mover {
+    from {top: 60%;}
+    to {top: 40%;}
+}
+
+.Elemento4 {
+    position: absolute;
+    width: 300px;
+    top: 2%;
+    left: 99%;
+    transition-delay: 3s;
+    transition-duration: 3s;
+    animation: Nube 5s infinite;
+}
+@keyframes Nube {
+    from {left: 99%;}
+    to{left: 30%;}
+}
+}
+.Elemento3 {
+    position: absolute;
+    width: 200px;
+    top: 60%;
+    left: 35%;
+    transition-property: Elemento3;
+    transition-delay: 9s;
+    transition-duration: 5s;
+    animation: mover 5s infinite;
+
+}
+@keyframes mover {
+    from {top: 60%;}
+    to {top: 40%;}
 }
