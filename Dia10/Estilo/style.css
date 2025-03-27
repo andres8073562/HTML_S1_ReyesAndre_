@@ -1,55 +1,59 @@
 .container {
+    background-color: rgb(15 23 42) ;
+    border: 2px color black;
+    width:  1080px;
+    height: 820px;
     display: grid;
-    border: 1px solid black;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, auto);
-    width: 50%;
-    height: 100%;
-    gap: 10px   ;
-    padding: 10px;
-}
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 1200px 10em 1fr;
+    border-radius: 10%;
 
-.uno {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    object-position: center; / Centra la imagen /
-    background-color: white;
-}
-
-.dos {
-    background-color: blueviolet;
-    grid-column: 1;
-    grid-row: 2;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center; 
-}
-
-.tres {
-    background-color: brown;
-    grid-column: 1 / 3; 
-    grid-row: 3; 
-}
-
-.tres img {
-    width: 100%;
-    height: auto;
-    object-fit: cover; / Cubre todo el contenedor manteniendo la proporción 
-    object-position:center
 
 }
-
-.cuatro {
-    background-color: chocolate;
-    grid-column: 2;
-    grid-row: 1/3;
+.Elemento1 {
+background-color:  rgb(15 23 42);
+grid-column: 12/3; 
+grid-row: 12/2;
 }
+.Gif1 {
+width: 1200px;
+border-radius: 50px;
+place-items: center;
 
-.cuatro img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; / Cubre todo el contenedor manteniendo la proporción 
-    object-position:center
+}
+.Elemento2 {
+    background-color:  rgb(15 23 42) ;
+grid-column: 1/3; 
+grid-row: 1;
+place-items: center;
+}
+.Elemento3 {
+    background-color:  rgb(15 23 42) ;
+grid-column: 1/1; 
+grid-row: 1;
+place-items: center;
+}
+.Elemento4 {
+    background-color:  rgb(15 23 42) ;
+grid-column: 1/1; 
+grid-row: 1;
+place-items: center;
+}
+.Elemento5 {
+    background-color: rgb(15 23 42) ;
+grid-column: 1/1;
+grid-row: 1; 
+place-items: center;
+}
+.Elemento6 {
+    background-color: rgb(15 23 42) ;
+grid-column: 1/1;
+grid-row: 1; 
+place-items: center;
+}
+.Elemento7 {
+    background-color:  rgb(15 23 42) ;
+grid-column: 1/1;
+grid-row: 1; 
+place-items: center;
 }
