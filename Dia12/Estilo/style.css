@@ -1,4 +1,3 @@
-
 .Elemento1 {
     position: relative;
     width: 100%;
@@ -7,55 +6,93 @@
 
 .Elemento2 {
     position: absolute; 
-    width:  200px;
-    height: 20%;
+    width: 1200px;
+    height: 50%;
     left: 80%;
-    top:1%;
-    
-
-}
-.Elemento3 {
-    position: absolute;
-    width: 200px;
-    top: 60%;
-    left: 35%;
-    transition-property: Elemento3;
-    transition-delay: 9s;
-    transition-duration: 5s;
-    animation: mover 5s infinite;
-
-}
-@keyframes mover {
-    from {top: 60%;}
-    to {top: 40%;}
+    top: 1%;
 }
 
+/* Nube */
 .Elemento4 {
     position: absolute;
-    width: 300px;
+    width: 1300px;
     top: 2%;
     left: 99%;
-    transition-delay: 3s;
-    transition-duration: 3s;
-    animation: Nube 5s infinite;
+    animation: Nube 5s forwards;
 }
+
+/* Animación de la nube */
 @keyframes Nube {
-    from {left: 99%;}
-    to{left: 30%;}
+    from { left: 99%; }
+    to { left: 30%; }
 }
-}
+
+/* Flor */
 .Elemento3 {
     position: absolute;
-    width: 200px;
-    top: 60%;
-    left: 35%;
-    transition-property: Elemento3;
-    transition-delay: 9s;
-    transition-duration: 5s;
-    animation: mover 5s infinite;
+    width: 1000px;
+    height: 1000px;
+    top: 130%;
+    left: 40%;
+    animation: mover 5s forwards 5s; /* La flor espera 5s antes de subir */
+}
 
-}
+/* Animación de la flor */
 @keyframes mover {
-    from {top: 60%;}
-    to {top: 40%;}
+    from { top: 130%; }
+    to { top: 80%; }
 }
+/* Estilo base de los elementos */
+.Elemento5 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    opacity: 0; /* Se ocultan antes de animarse */
+    animation: aparecer 0.5s forwards, caer 3s forwards;
+}
+
+/* Animación de aparición */
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.Elemento5 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    top: 2%;
+    opacity: 0; /* Inicialmente invisibles */
+}
+
+/* Animación de caída */
+@keyframes caer {
+    0% { opacity: 1; top: 2%; } /* Se hace visible al iniciar */
+    100% { top: 90%; }
+}
+
+/* 20 elementos con delay inicial de 11s */
+.Elemento5:nth-child(1) { left: 5%; animation: caer 3s forwards 11s; }
+.Elemento5:nth-child(2) { left: 10%; animation: caer 3s forwards 11.5s; }
+.Elemento5:nth-child(3) { left: 15%; animation: caer 3s forwards 12s; }
+.Elemento5:nth-child(4) { left: 20%; animation: caer 3s forwards 12.5s; }
+.Elemento5:nth-child(5) { left: 25%; animation: caer 3s forwards 13s; }
+.Elemento5:nth-child(6) { left: 30%; animation: caer 3s forwards 13.5s; }
+.Elemento5:nth-child(7) { left: 35%; animation: caer 3s forwards 14s; }
+.Elemento5:nth-child(8) { left: 40%; animation: caer 3s forwards 14.5s; }
+.Elemento5:nth-child(9) { left: 45%; animation: caer 3s forwards 15s; }
+.Elemento5:nth-child(10) { left: 50%; animation: caer 3s forwards 15.5s; }
+.Elemento5:nth-child(11) { left: 55%; animation: caer 3s forwards 16s; }
+.Elemento5:nth-child(12) { left: 60%; animation: caer 3s forwards 16.5s; }
+.Elemento5:nth-child(13) { left: 65%; animation: caer 3s forwards 17s; }
+.Elemento5:nth-child(14) { left: 70%; animation: caer 3s forwards 17.5s; }
+.Elemento5:nth-child(15) { left: 75%; animation: caer 3s forwards 18s; }
+.Elemento5:nth-child(16) { left: 80%; animation: caer 3s forwards 18.5s; }
+.Elemento5:nth-child(17) { left: 85%; animation: caer 3s forwards 19s; }
+.Elemento5:nth-child(18) { left: 90%; animation: caer 3s forwards 19.5s; }
+.Elemento5:nth-child(19) { left: 95%; animation: caer 3s forwards 20s; }
+.Elemento5:nth-child(20) { left: 50%; animation: caer 3s forwards 20.5s; }
